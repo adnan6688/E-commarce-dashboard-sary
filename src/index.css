@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+
+:root {
+  --primary-color: #38404E;
+  --accent-color: #7D7D7D;
+  --btn-color: #2289C9;
+  --btn-deep: #135B91;
+}
+
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/LufgaLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.MyCustomFont {
+  font-weight: 500;
+  font-family: 'Lufga', sans-serif;
+}
